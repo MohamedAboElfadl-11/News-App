@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import '../main.dart';
 import '../widgets/list_view_cards.dart';
 import '../widgets/news_view_list.dart';
 
