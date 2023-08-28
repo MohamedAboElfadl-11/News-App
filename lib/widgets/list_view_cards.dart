@@ -8,19 +8,15 @@ class ListViewCard extends StatelessWidget {
 
   List<CategoryModel> categories = const [
     CategoryModel(
-      categoryImage: "assets/bussines.jpeg",
+      categoryImage: "assets/business.jpg",
       categoryName: "Business",
     ),
     CategoryModel(
-      categoryImage: "assets/sport.jpeg",
+      categoryImage: "assets/sports.jpg",
       categoryName: "Sport",
     ),
     CategoryModel(
-      categoryImage: "assets/general.jpeg",
-      categoryName: "General",
-    ),
-    CategoryModel(
-      categoryImage: "assets/science.jpeg",
+      categoryImage: "assets/gray-genetics-science-dna-7gtkfw2nqjstwqmf.jpg",
       categoryName: "Science",
     ),
     CategoryModel(
@@ -28,12 +24,8 @@ class ListViewCard extends StatelessWidget {
       categoryName: "Technology",
     ),
     CategoryModel(
-      categoryImage: "assets/health.jpeg",
+      categoryImage: "assets/health.jpg",
       categoryName: "Health",
-    ),
-    CategoryModel(
-      categoryImage: "assets/entertamint.jpeg",
-      categoryName: "Entertain",
     ),
   ];
 

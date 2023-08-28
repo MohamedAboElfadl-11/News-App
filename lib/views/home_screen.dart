@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/list_view_cards.dart';
-import '../widgets/news_view_list.dart';
+import '../widgets/news_list_view_builder.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({super.key});
@@ -27,6 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
       debugShowCheckedModeBanner: false,
       theme: isBool ? darkMode : lightMode,
       home: Scaffold(
+        drawer: const Drawer(),
         appBar: AppBar(
           actions: [
             IconButton(
@@ -73,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 28.0,
                 ),
               ),
-              const NewsListView(),
+              const NewsListViewBuilder(category: "general"),
             ],
           ),
         ),
